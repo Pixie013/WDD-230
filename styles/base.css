@@ -1,0 +1,16 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav a {
+    display: block;
+}
+
+main {
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.card {
+    /* Add card styles here */
+}
