@@ -1,37 +1,76 @@
-/* Reset some default styles */
-body, h1, h2, p {
-    margin: 0;
-    padding: 0;
+/* General Styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Basic styling for the header */
+/* Header Styles */
 header {
-    background-color: #336699;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    font-weight: bold;
+}
+
+header p {
+    font-size: smaller;
+}
+
+/* Site Purpose Styles */
+.site-purpose {
+    background-color: black;
     color: white;
     text-align: center;
+    border-radius: 10px;
     padding: 20px;
-}
-
-/* Styling for content sections */
-section {
     margin: 20px;
-    padding: 20px;
-    border: 1px solid #ddd;
 }
 
-/* Color boxes for the color schema section */
+/* Scenarios Styles */
+.scenarios {
+    background-color: #007A4D;
+    color: black;
+    padding: 20px;
+    margin: 20px;
+}
+
+.scenarios h2 {
+    background-color: gold;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.scenarios ul {
+    list-style-type: none;
+}
+
+.scenarios li {
+    margin: 10px;
+}
+
+/* Color Schema Styles */
 .color-box {
     padding: 10px;
-    margin: 5px;
-    border: 1px solid #000;
+    margin: 10px;
 }
 
 .primary-color {
-    background-color: #336699;
+    background-color: #000000;
     color: white;
 }
 
 .secondary-color {
-    background-color: #FF9933;
-    color: white;
+    background-color: #FFB612;
+    color: black;
+}
+
+/* Typography Styles */
+.typography {
+    color: black;
+    padding: 20px;
+    margin: 20px;
 }
