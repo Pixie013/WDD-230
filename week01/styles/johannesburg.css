@@ -5,17 +5,16 @@ body {
 
 /* Header Styles */
 header {
+    display: flex;
+    align-items: center;
     background-color: black;
     color: white;
     padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .header-content {
-    text-align: center;
     flex-grow: 1;
+    text-align: center;
 }
 
 .header-content h1 {
@@ -28,8 +27,8 @@ header {
 
 .Flag {
     max-width: 200px;
-    height: auto;
-    margin-left: 20px;
+    height: 200px;
+    margin-left: -50px;
 }
 
 /* Site Purpose Styles */
@@ -37,28 +36,26 @@ header {
     background-color: red;
     color: white;
     text-align: center;
-    border-radius: 10px;
+    font-weight: bold;
     padding: 20px;
     margin: 20px;
-    font-weight: bold;
 }
 
 /* Scenarios Styles */
 .scenarios {
     background-color: #007A4D;
-    color: black;
+    color: rgb(255, 255, 255);
     padding: 20px;
     margin: 20px;
-    position: relative;
 }
 
-.scenarios h2 {
-    background-color: gold;
-    color: black;
+.scenarios {
+    background-color: #007A4D);
+    color: rgb(255, 255, 255);
     text-align: center;
-    display: block;
-    padding: 10px;
-    margin-bottom: 20px;
+    font-weight: bold;
+    padding: 20px;
+    margin: 20px;
 }
 
 .scenarios ul {
@@ -69,11 +66,26 @@ header {
     margin: 10px;
 }
 
-/* Color Schema Styles */
-.color-box {
-    padding: 10px;
-    margin: 10px;
+/* Typography Styles */
+.typography {
+    background-color: #001489 ;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    margin: 20px;
 }
+
+/* Color Schema Styles */
+.color-box  {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    margin: 20px;
+}
+
 
 .primary-color {
     background-color: #000000;
@@ -82,12 +94,23 @@ header {
 
 .secondary-color {
     background-color: #FFB612;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
-/* Typography Styles */
-.typography {
-    color: black;
-    padding: 20px;
-    margin: 20px;
+.third-color {
+    background-color: #E03C31 ;
+    color: rgb(255, 255, 255);
 }
+
+.Fourth-color {
+    background-color: #007749 ;
+    color: rgb(255, 255, 255);
+}
+
+.Fifth-color {
+    background-color: #001489 ;
+    color: rgb(255, 255, 255);
+}
+
+
+
