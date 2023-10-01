@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Johannesburg Chamber of Commerce - Site Plan</title>
     <link rel="stylesheet" href="styles/johannesburg.css">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Johannesburg Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="image.jpg">
+    <meta property="og:url" content="http://www.example.com">
 </head>
 
 <body>
@@ -13,48 +18,58 @@
             <h1>Johannesburg Chamber of Commerce</h1>
             <p>Fostering Business Growth in the Heart of South Africa</p>
         </div>
-        <img src="/images/southafricanflag.png" alt="Flag" class="Flag">
+        <img src="/images/southafricanflag.png" alt="South African Flag" class="Flag">
     </header>
 
-    <section class="site-purpose">
-        <h2>Site Purpose</h2>
-        <p>The Johannesburg Chamber of Commerce serves as a central hub for local businesses in Johannesburg, South Africa. Our primary goals are to promote business growth, provide networking opportunities, and offer valuable resources and information on the city's economic development.</p>
-    </section>
-
-    <section class="scenarios">
-      <h2>Scenarios</h2>  
+    <nav>
+        <!-- Add your navigation menu here -->
         <ul>
-            <li>What upcoming events support local businesses and offer networking opportunities?</li>
-            <li>Where can I find contact details for the chamber's board of directors?</li>
-            <li>What has been the recent population growth in the Johannesburg area?</li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Contact</a></li>
         </ul>
+    </nav>
 
-    </section>
-
-    <section class="typography">
-        <h2>Typography</h2>
-        <p>Primary Font: Helvetica</p>
-        <p>Secondary Font: sans-serif</p>
-    </section>
-
-    <section class="color-box">
-        <h2>Color Schema</h2>
+    <main>
+        <!-- Hero Image -->
+        <section class="hero-image">
+            <img src="hero.jpg" alt="Hero Image">
         </section>
 
-    <section class="color-schema">
-        
-        <div class="color-box primary-color">Primary Color: #000000</div>
-        <div class="color-box secondary-color">Secondary Color: #FFB612</div>
-        <div class="color-box third-color">3rd Color: #E03C31 </div>
-        <div class="color-box Fourth-color">4th Color: #007749 </div>
-        <div class="color-box Fifth-color">5th Color: #001489 </div>
-    </section>
+        <!-- Call to Action -->
+        <section class="cta">
+            <a href="#">Join the Chamber of Commerce</a>
+        </section>
 
-    <section class="wireframe">
-        <h2>Wireframe</h2>
-        <a href="https://www.canva.com/design/DAFvlAeZe-Y/0xE29nyyb39-QfIXsLdzXw/view?utm_content=DAFvlAeZe-Y&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank">View Wireframe</a>
-    </section>
-    
+        <!-- Current Events -->
+        <section class="current-events">
+            <h2>Upcoming Events</h2>
+            <p>Networking Dinner - Oct 15</p>
+            <p>Business Expo - Nov 5</p>
+        </section>
 
+        <!-- Weather Card -->
+        <section class="weather-card">
+            <h2>Current Weather</h2>
+            <p>25°C, Sunny</p>
+        </section>
+
+        <!-- Company Spotlights -->
+        <section class="company-spotlights">
+            <h2>Company Spotlights</h2>
+            <p>Company A - Leading in Tech</p>
+            <p>Company B - Best in Retail</p>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Add your full name, course name, and JavaScript-driven last modification date here -->
+        <p>Carol Maxwell, WDD 230</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+
+    <!-- Add your JavaScript files here -->
+    <script src="scripts/script.js"></script>
 </body>
 </html>
