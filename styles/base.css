@@ -37,18 +37,16 @@ header h1 {
 
 /* Dark Mode Styles */
 body.dark-mode {
-    background-color: #333;
-    color: #ccc;
+    background-color: #2c2a3d;  /* Dark Purple */
+    color: #ffffff;  /* White */
 }
-
 
 body.dark-mode .week,
 body.dark-mode .area,
 body.dark-mode .temperature,
 body.dark-mode .page-visits {
-color: white;
+    color: #ffffff;  /* White */
 }
-
 
 /* Navigation Styles */
 nav {
