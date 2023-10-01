@@ -7,15 +7,22 @@
     <meta name="description" content="WDD 230 - Web Frontend Development course assignment portal by Carol Maxwell.">
     <meta name="author" content="Carol Maxwell">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="week01/styles/base.css">
-    <link rel="stylesheet" href="week01/styles/larger.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
 </head>
 
 <body>
     <header>
-        <img src="images\profile.webp" alt="Profile Image">
-        <h1>Carol Maxwell</h1>
+        <div class="header-content">
+            <img src="images/profile.webp" alt="Profile Image">
+            <h1>Carol Maxwell</h1>
+        </div>
+        <button id="menu">
+            <img src="images/moon.png" id="icon" class="icon">
+        </button>
     </header>
+    
+    
     <nav>
         <button id="menu">
             <span></span>
@@ -28,7 +35,7 @@
             <a href="week01/johannesburg.html">Site Plan</a>
             <a href="#">Form</a>
         </ul>
-        <img src="images/moon.png" id="icon">
+        
     </nav>
     <main>
         <h2>WDD 230: Web Frontend Development</h2>
@@ -61,6 +68,6 @@
         <p id="lastModified"></p>
     </footer>
     <script src="scripts/getDates.js"></script>
-    <script src="script.js"></script>
+    <script src="scripts/script.js"></script>
 </body>
 </html>

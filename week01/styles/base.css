@@ -1,142 +1,123 @@
+/* General Styles */
 body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Header Styles */
 header {
-    background-color: rgba(134, 133, 156, 0.701);
+    display: flex;
+    align-items: center;
+    background-color: black;
     color: white;
-    text-align: center;
-    padding: 1rem 0;
+    padding: 20px;
 }
 
-header img {
-    width: 200px;
+.header-content {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.header-content h1 {
+    font-weight: bold;
+}
+
+.header-content p {
+    font-size: smaller;
+}
+
+.Flag {
+    max-width: 200px;
     height: 200px;
-    border-radius: 10%;
-    margin-right: 10px;
+    margin-left: -50px;
 }
 
-header h1 {
-    display: inline-block;
-    margin-block-start: 10%;
-}
-
-#menu {
-    font-size: 1.5rem;
-    border: 1px solid rgba(0, 0, 0, .3);
-    padding: .25rem .75rem;
-    background-color: #eee;
-    color: #000;
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-}
-
-#menu::before {
-    content: "☰";
-}
-
-#menu.open::before {
-    content: "❎";
-}
-
-nav {
-    background-color: rgb(105, 104, 117);
-    text-align: center;
-    padding: 0.5rem 0;
-}
-
-nav a {
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
-}
-
-nav a:hover {
-    background-color: rgba(134, 133, 156, 0.701);
-    padding: 5px 10px;
-    border-radius: 5px;
-}
-
-main {
-    max-width: 100vw;
-    display: grid;
-    grid-template-columns: 1fr 1fr; 
-    gap: 1rem;
-    padding: 1rem;
-}
-
-main h2 {
-    text-align: center;
-    margin-bottom: 1rem;
-    grid-column: 1 / 3;
-}
-
-.card-title {
-    background-color:  rgba(134, 133, 156, 0.701);
-    color: white;
-    padding: 0.05rem;
-    border-radius: 115px;
-    text-align: justify; 
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    height: 70px; 
-}
-
-.card h3 {
-    text-align: center;
-    margin-bottom: 1rem;
-}
-
-.card ul {
-    margin: 0; 
-    padding: 10px; 
-    color: rgb(84, 54, 106);
-    list-style-type: none; 
-}
-
-.card li {
-    margin-bottom: 0.15rem; 
-}
-
-footer {
-    background-color:rgba(134, 133, 156, 0.701);
+/* Site Purpose Styles */
+.site-purpose {
+    background-color: red;
     color: white;
     text-align: center;
-    padding: 1rem 0;
-    margin-top: 1rem;
+    font-weight: bold;
+    padding: 20px;
+    margin: 20px;
 }
 
-@media (min-width: 37.5em) {
-    h1 {
-        font-size: 2.5rem;
-        margin-left: 0;
-        text-align: center;
-    }
-    
-    h2 {
-        font-size: 2rem;
-        text-align: center;
-    }
-
-    #menu {
-        /* display: none;  hide hamburger button */
-    }
-
-    .navigation {
-        flex-direction: row;
-    }
-
-    .navigation li {
-        display: block;
-        flex: 1 1 100%;
-    }
-    
-    .stuff {
-        margin: 1rem auto;
-    }
+/* Scenarios Styles */
+.scenarios {
+    background-color: #007A4D;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 20px;
 }
+
+.scenarios {
+    background-color: #007A4D);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    margin: 20px;
+}
+
+.scenarios ul {
+    list-style-type: none;
+}
+
+.scenarios li {
+    margin: 10px;
+}
+
+/* Typography Styles */
+.typography {
+    background-color: #001489 ;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Color Schema Styles */
+.color-box  {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    margin: 20px;
+}
+
+
+.primary-color {
+    background-color: #000000;
+    color: white;
+}
+
+.secondary-color {
+    background-color: #FFB612;
+    color: rgb(255, 255, 255);
+}
+
+.third-color {
+    background-color: #E03C31 ;
+    color: rgb(255, 255, 255);
+}
+
+.Fourth-color {
+    background-color: #007749 ;
+    color: rgb(255, 255, 255);
+}
+
+.Fifth-color {
+    background-color: #001489 ;
+    color: rgb(255, 255, 255);
+}
+
+.wireframe {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    margin: 20px;
+}
+
