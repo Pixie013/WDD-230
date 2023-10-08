@@ -123,6 +123,12 @@ div[style="position: relative;"] {
     font-size: 24px;
 }
 
+.map-block iframe {
+    width: 100%; /* Makes the map responsive */
+    max-width: 800px; /* Maximum width */
+    height: 500px;
+}
+
 .card-title, .card-content {
     background-color: rgba(141, 141, 152, 0.701);
     color: white;
@@ -132,7 +138,7 @@ div[style="position: relative;"] {
 }
 
 .card h3, .card ul {
-    margin: 0.5rem 0;
+    margin: 1.5rem 0;
 }
 
 /* Footer Styles */
@@ -140,6 +146,6 @@ footer {
     background-color: rgba(134, 133, 156, 0.701);
     color: white;
     text-align: center;
-    padding: 1rem 0;
+    padding: 0.5rem 0;
     margin-top: 1rem;
 }
