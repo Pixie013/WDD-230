@@ -39,15 +39,27 @@
         
     </nav>
     <main>
-        <div style="position: relative;">
-            <picture>
-                <source media="(max-width: 400px)" srcset="temple-400px.webp">
-                <source media="(max-width: 960px)" srcset="temple-960px.webp">
-                <img src="temple-960px.webp" alt="Temple" style="width: 100%;">
-            </picture>
-            <div class="overlay">Temple Name</div>
+        <div class="parent-wrapper">
+            <div class="overlay">Johannesburg Temple</div>
+            <div class="block-wrapper">
+                <div class="image-block">
+                    <picture>
+                        <source media="(max-width: 400px)" srcset="temple-400px.webp">
+                        <source media="(max-width: 960px)" srcset="temple-960px.webp">
+                        <img src="images/temple-960px.webp" alt="Temple">
+                    </picture>
+                </div>
+                <div class="text-block">
+                    <p>The Johannesburg South Africa Temple holds a special place in my heart. It's not just a beautiful structure; it's where I've found solace, guidance, and a sense of community. This sacred temple has been a source of spiritual strength and a place where families are sealed together for eternity. It's a testament to our faith and commitment to living the teachings of Jesus Christ in our daily lives.</p>
+                </div>
+            </div>
         </div>
-
+        <div class="map-block">
+            <iframe src="your_google_map_link_here" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+</div>
+        
         <h2>WDD 230: Web Frontend Development</h2>
         <section class="card card-title">
             <h3>Learning Activities</h3>
@@ -72,7 +84,7 @@
                 <li>Page Visits:</li>     
             </ul>           
         </section>
-        <iframe src="your_google_map_link_here" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580.570076502975!2d28.036987175414467!3d-26.17812757709262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950c152ae1e939%3A0xe56c435411ec633d!2sJohannesburg%20South%20Africa%20Temple!5e0!3m2!1sen!2sza!4v1696763271892!5m2!1sen!2sza" width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </main>
     <footer>
         <p>&copy; <span id="currentYear"></span> Carol Maxwell, JHB, South Africa</p>
