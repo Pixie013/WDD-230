@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <link rel="stylesheet" href="styles/base-small.css">
+    <link rel="stylesheet" href="styles/base-medium.css">
+    <link rel="stylesheet" href="styles/base-large.css">
+
+    <script src="scripts/index.js"></script>
+</head>
+<body>
+
+    <header>
+
+        <div id="header-content">
+            <div id="logo-section">
+                <img src="images/SA-logo.png" alt="logo" id="header-logo">
+                <section id="name-section">
+                    <h1>Johannesburg</h1>
+                    <h2>Chamber of Commerce</h2>
+                </section>
+            </div>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li class="nav-item"><a id="menu" href="#"></a></li>
+                    <li class="nav-item"><a href="./index.html">Home</a></li>
+                    <li class="nav-item"><a href="./discover.html">Discover</a></li>
+                    <li class="nav-item"><a href="./directory.html">Directory</a></li>
+                    <li class="nav-item"><a href="./join.html">Join</a></li>
+                    <li class="nav-item"><a href="#">Contact</a></li>
+                    <li class="nav-item"><a href="https://pixie013.github.io/WDD-230/">Profile</a></li>
+                </ul>
+            </nav>
+            <div id="social-div">
+                <img src="images/facebook.png" alt="facebook" class="social">
+                <img src="images/linkedin.png" alt="linkedin" class="social">
+            </div>
+            <div id="date-section">
+                <p>Generic date</p>
+            </div>
+        </div>
+
+    </header>
+
+    <main id="contact-main">
+
+        <div id="contact-left">
+            <form action="index.html">
+
+                <h2>Contact form</h2>
+                
+                <div>
+                    <label for="name" class="contact-form-label">Name</label>
+                    <input id="name" name="name" type="text" required>    
+                </div>
+            
+                <div>
+                    <label for="email" class="contact-form-label">Email address</label>
+                    <input id="email" name="email" type="email" required>    
+                </div>
+    
+                <div>
+                    <label for="question" class="contact-form-label">Question/Concern</label>
+                    <textarea type="textarea" name="question" id="description" rows="5" placeholder="Describe your concern..." required></textarea>    
+                </div>
+
+                <button type="submit">Submit</button>
+    
+            </form>
+    
+        </div>
+
+        <div id="contact-right">
+
+            <div id="visit-us">
+                <h2>Visit us</h2>
+                <p>You can come visit us in Address, Johannesburg, Gauteng</p>
+                <p>Office hours are Mondays to Fridays from 7:30 to 18:30</p>
+            </div>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580.387721244597!2d28.01790367541461!3d-26.184062877089033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950c0af1780b2b%3A0x776ae5a6090fdff0!2sJCCI%20BUSINESS%20FOCUS!5e0!3m2!1sen!2sza!4v1697696867101!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">></iframe>
+
+        </div>
+
+    </main>
+
+    <footer>
+
+        <div id="footer-content">
+
+            <div id="footer-top-content">
+                <img src="images/SA-logo.png" alt="logo" id="footer-logo">
+                <h4>Johannesburg Chamber of Commerce</h4>
+                <p>27 Owl Street,</p>
+                <p>Johannesburg, Gauteng</p>
+                <p>info@johannesburg.org</p>
+                <p>+(27) 11 3542-5236</p>
+                <li class="nav-item"><a href="./contact.html">Map Location</a></li>
+            </div>
+
+            <hr>
+
+            <div id="footer-bottom-content">
+                <div id="info">
+                    <p>© Johannesburg Chamber</p>
+                    <p>Carol Maxwell</p>
+                    <p>WDD 230 Project</p>
+                </div>
+                <p id="lastModified"></p>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+</html>

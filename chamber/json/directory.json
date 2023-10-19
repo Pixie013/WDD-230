@@ -1,0 +1,69 @@
+{
+    "directory" : [
+        {
+            "business" : "Coffee Corner Cafe",
+            "address" : "123 Main Street, Newtown, Johannesburg",
+            "phone" : "+27 11 123 4567",
+            "email" : "info@coffeecornercafe.co.za",
+            "logo" : "images/directory-1.png",
+            "membership" : "bronce"
+        },
+        {
+            "business" : "Green Thumb Plant Nursery",
+            "address" : "456 Oak Avenue, Randburg, Johannesburg",
+            "phone" : "+27 11 987 6543",
+            "email" : "greenthumbnursery@gmail.com",
+            "logo" : "images/directory-2.png",
+            "membership" : "silver"
+        },
+        {
+            "business" : "Johannesburg Book Haven",
+            "address" : "789 Garden Street, Rosebank, Johannesburg",
+            "phone" : "+27 11 876 5432",
+            "email" : "books@jobookhaven.co.za",
+            "logo" : "images/directory-3.png",
+            "membership" : "gold"
+        },
+        {
+            "business" : "Fresh Bites Deli",
+            "address" : "234 Park Road, Greenside, Johannesburg",
+            "phone" :"+27 11 234 5678",
+            "email" : "freshbites@gmail.com",
+            "logo" : "images/directory-4.png",
+            "membership" : "silver"
+        },
+        {
+            "business" : "Crafty Creations Jewelry",
+            "address" : "567 Bead Street, Melville, Johannesburg",
+            "phone" : "+27 11 345 6789",
+            "email" : "craftycreations@jewels.co.za",
+            "logo" : "images/directory-5.png",
+            "membership" : "bronce"
+        },
+        {
+            "business" : "Tech Wizard Repair Shop",
+            "address" : "890 Electronics Avenue, Fourways, Johannesburg",
+            "phone" : "+27 11 678 9012",
+            "email" : "techwizard@repairshop.co.za",
+            "logo" : "images/directory-6.png",
+            "membership" : "free"
+        },
+        {
+            "business" : "Sweet Sensations Bakery",
+            "address" : "123 Sugar Lane, Sandton, Johannesburg",
+            "phone" : "+27 11 789 0123",
+            "email" : "info@sweetsensations.co.za",
+            "logo" : "images/directory-7.png",
+            "membership" : "bronze"
+        },
+        {
+            "business" : "Fashion Forward Boutique",
+            "address" : "345 Style Street, Hyde Park, Johannesburg",
+            "phone" : "+27 11 432 1098",
+            "email" : "fashionforward@gmail.com",
+            "logo" : "images/directory-8.png",
+            "membership" : "gold"
+        },
+       
+    ]
+}

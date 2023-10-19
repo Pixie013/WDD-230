@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carol Maxwell - WDD 230 - Web Frontend Development</title> 
+    <meta name="description" content="WDD 230 - Web Frontend Development course assignment portal by Carol Maxwell.">
+    <meta name="author" content="Carol Maxwell">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/form.css">
+    
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <img src="images/profile.webp" alt="Profile Image">
+            <h1>Carol Maxwell</h1>
+        </div>
+    </header>
+    <nav>
+        <ul class="mainMenu">
+            <a href="index.html">Home</a>
+            <a href="chamber/index.html">Chamber</a>
+            <a href="week01/johannesburg.html">Site Plan</a>
+            <a href="form.html">Form</a>
+        </ul>
+    </nav>
+
+    <main>
+        
+        <div id="contact-left">
+            
+            <form action="index.html" id="contact-form">
+                <h2>Contact form</h2>
+                
+                <div>
+                    <label for="name" class="contact-form-label">Name</label>
+                    <input id="name" name="name" type="text" required>    
+                </div>
+            
+                <div>
+                    <label for="email" class="contact-form-label">Email address</label>
+                    <input id="email" name="email" type="email" required>    
+                </div>
+            
+                <div>
+                    <label for="question" class="contact-form-label">Question/Concern</label>
+                    <textarea name="question" id="description" rows="5" placeholder="Describe your concern..." required></textarea>    
+                </div>
+            
+                <button type="submit">Submit</button>
+            </form>
+            
+            </div>
+
+    </main>
+    <footer>
+        <p>&copy; <span id="currentYear"></span> Carol Maxwell, JHB, South Africa</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

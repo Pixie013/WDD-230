@@ -2,59 +2,144 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Johannesburg Chamber of Commerce - Site Plan</title>
-    <link rel="stylesheet" href="styles/johannesburg.css">
-</head>
+    <title>Johannesburg Chamber of Commerce</title>
 
+    <link rel="icon" href="SA-favicon.ico">
+
+    <link rel="stylesheet" href="styles/base-small.css">
+    <link rel="stylesheet" href="styles/base-medium.css">
+    <link rel="stylesheet" href="styles/base-large.css">
+
+    <script src="scripts/index.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/spotlight.js"></script>
+    <script src="scripts/directory.js"></script>
+
+</head>
 <body>
+    
     <header>
-        <div class="header-content">
-            <h1>Johannesburg Chamber of Commerce</h1>
-            <p>Fostering Business Growth in the Heart of South Africa</p>
+
+        <div id="header-content">
+            <div id="logo-section">
+                <img src="images/SA-logo.png" alt="logo" id="header-logo" >
+                <section id="name-section">
+                    <h1>Johannesburg</h1>
+                    <h2>Chamber of Commerce</h2>
+                </section>
+            </div>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li class="nav-item"><a id="menu" href="#"></a></li>
+                    <li class="nav-item"><a href="./index.html">Home</a></li>
+                    <li class="nav-item"><a href="./discover.html">Discover</a></li>
+                    <li class="nav-item"><a href="./directory.html">Directory</a></li>
+                    <li class="nav-item"><a href="./join.html">Join</a></li>
+                    <li class="nav-item"><a href="./contact.html">Contact</a></li>
+                    <li class="nav-item"><a href="https://pixie013.github.io/WDD-230/">Profile</a></li>
+                </ul>
+            </nav>
+            <div id="social-div">
+                <img src="images/facebook.png" alt="facebook" class="social">
+                <img src="images/linkedin.png" alt="linkedin" class="social">
+            </div>
+            <div id="date-section">
+                <p>Generic date</p>
+            </div>
         </div>
-        <img src="/images/southafricanflag.png" alt="Flag" class="Flag">
+
     </header>
 
-    <section class="site-purpose">
-        <h2>Site Purpose</h2>
-        <p>The Johannesburg Chamber of Commerce serves as a central hub for local businesses in Johannesburg, South Africa. Our primary goals are to promote business growth, provide networking opportunities, and offer valuable resources and information on the city's economic development.</p>
-    </section>
+    <main id="home-main">
 
-    <section class="scenarios">
-      <h2>Scenarios</h2>  
-        <ul>
-            <li>What upcoming events support local businesses and offer networking opportunities?</li>
-            <li>Where can I find contact details for the chamber's board of directors?</li>
-            <li>What has been the recent population growth in the Johannesburg area?</li>
-        </ul>
-
-    </section>
-
-    <section class="typography">
-        <h2>Typography</h2>
-        <p>Primary Font: Helvetica</p>
-        <p>Secondary Font: sans-serif</p>
-    </section>
-
-    <section class="color-box">
-        <h2>Color Schema</h2>
+        <section id="hero-section" class="home-section">
+            <h2>City of Johannesburg</h2>
+            <picture>
+                <source media="(min-width: 35em) and (max-width: 1000px)" srcset="images/banner800.png">
+                <source media="(min-width: 1000px)" srcset="images/banner1200.png">
+                <img src="images/banner400.png" alt="city image">
+            </picture>
+            
+            <button><a href="./join.html">Join the Chamber</a></button>
         </section>
 
-    <section class="color-schema">
+        <section id="event-section" class="home-section">
+            <h2>Latest Business Events</h2>
+            <h3>Johannesburg Nasreec Centerr</h3>
+            <p>Join us for an exclusive opportunity to gain the latest insights and strategies for achieving unparalleled success in your business endeavors.</p>
+            <p>Our expert panelists and industry leaders will share invaluable knowledge, innovative approaches, and proven techniques that can propel your business to new heights. Don't miss this chance to supercharge your business growth and profitability.</p>
+            <p><span>For more details and to reserve your spot, click below for additional information</span></p>
+            </section>
         
-        <div class="color-box primary-color">Primary Color: #000000</div>
-        <div class="color-box secondary-color">Secondary Color: #FFB612</div>
-        <div class="color-box third-color">3rd Color: #E03C31 </div>
-        <div class="color-box Fourth-color">4th Color: #007749 </div>
-        <div class="color-box Fifth-color">5th Color: #001489 </div>
-    </section>
+            <section id="weather-section" class="home-section">
+                <h1>Current Weather</h1>
+                <h2>Johannesburg, SA</h2>
+                <div class="weather-container">
+                    <img class="icon">
+                    <p class="weather"></p>
+                    <p class="temp"></p>
+                </div>
+            </section>
 
-    <section class="wireframe">
-        <h2>Wireframe</h2>
-        <a href="https://www.canva.com/design/DAFvlAeZe-Y/0xE29nyyb39-QfIXsLdzXw/view?utm_content=DAFvlAeZe-Y&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank">View Wireframe</a>
-    </section>
+        <section id="news-section" class="home-section">
+            <h2>Welcome</h2>
+            <p>At the Johannesburg Commerce Chamber, we are dedicated to fostering economic growth and prosperity in the heart of South Africa. With a rich history spanning decades, our chamber has been a driving force behind the success of businesses large and small in the Johannesburg area. We provide a vibrant platform for networking, knowledge sharing, and advocacy. Whether you're a seasoned entrepreneur or just starting out, our chamber is here to support your journey to success. Explore our website to discover the myriad of resources and opportunities we offer, and join us in building a thriving business community in Johannesburg.</p>
+        </section>
+
+        <div id="spotlight-section" class="home-section">
+            
+            <div id="spotlight-container">
+                <section class="spotlight home-section">
+
+                </section>
     
+                <section class="spotlight home-section">
+
+                </section>
+    
+                <section class="spotlight home-section">
+
+                </section>
+            </div>
+
+        </div>
+
+        <div id="join-section" class="home-section">
+            <button><a href="./join.html">Join Us!</a></button>
+            <p>How to join the Johannesburg chamber of commerce will help your business to grow!</p>
+        </div>
+
+    </main>
+
+    <footer>
+
+        <div id="footer-content">
+
+            <div id="footer-top-content">
+                <img src="images/SA-logo.png" alt="logo" id="footer-logo">
+                <h4>Johannesburg Chamber of Commerce</h4>
+                <p>27 Owl Street, Johannesburg, Gauteng</p>
+                <p>Johannesburg, Gauteng</p>
+                <p>info@johannesburg.org</p>
+                <p>+(27) 11 3542-5236</p>
+                <li class="nav-item"><a href="./contact.html">Map Location</a></li>
+            </div>
+
+            <hr>
+
+            <div id="footer-bottom-content">
+                <div id="info">
+                    <p>© Johannesburg Chamber</p>
+                    <p>Carol Maxwell</p>
+                    <p>WDD 230 Project</p>
+                </div>
+                <p id="lastModified"></p>
+            </div>
+        </div>
+
+    </footer>
 
 </body>
 </html>
