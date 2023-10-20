@@ -116,12 +116,14 @@ div[style="position: relative;"] {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
+    width: 100%;
 }
 
 /* Style for image block */
 .image-block {
     flex: 0 0 auto; 
     min-width: 5%;
+    flex-basis: 50%;
 }
 
 .image-block img {
@@ -135,6 +137,7 @@ div[style="position: relative;"] {
     flex: 1 1 auto; 
     margin-left: 1%;
     font-size: 20px;
+    flex-basis: 50%;
 }
 
 .map-block iframe {
@@ -178,4 +181,3 @@ footer {
     padding: 0.5rem 0;
     margin-top: 1rem;
 }
-
