@@ -1,12 +1,13 @@
 {
     "directory" : [
+
         {
             "business" : "Coffee Corner Cafe",
             "address" : "123 Main Street, Newtown, Johannesburg",
             "phone" : "+27 11 123 4567",
             "email" : "info@coffeecornercafe.co.za",
             "logo" : "images/directory-1.png",
-            "membership" : "bronce"
+            "membership" : "bronce" 
         },
         {
             "business" : "Green Thumb Plant Nursery",
@@ -64,6 +65,5 @@
             "logo" : "images/directory-8.png",
             "membership" : "gold"
         }
-       
     ]
 }
