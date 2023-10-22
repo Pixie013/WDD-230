@@ -12,18 +12,15 @@ async function getapi(url) {
     // Storing data in form of JSON
     var data = await response.json();
     
-    // console.log(data);
     var tempStatus = Math.floor(data.main.temp);
-    var cityName = data.name+', '+data.sys.country;
+    var cityName = data.name + ', ' + data.sys.country;
     var tempStatusMin = Math.floor(data.main.temp_min);
-    var tempStatusMax = Math.floor(data.main.temp_max);
     var icon = "http://openweathermap.org/img/w/" + data.weather[0].icon + ".png";
 
     var weatherStatus = data.weather[0].description;
     
     document.getElementById('weather').innerHTML = weatherStatus;
     document.getElementById('temp').innerHTML = tempStatusMin;
-    document.getElementById('icon').innerHTML = icon;
     document.getElementById('cityName').innerHTML = cityName;
-    $('#icon').attr('src', icon);
+    $('#icon').attr('src', icon);  // Setting the image source using jQuery
 }
