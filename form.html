@@ -28,32 +28,39 @@
     </nav>
 
     <main>
-        
-        <div id="contact-left">
-            
-            <form action="index.html" id="contact-form">
-                <h2>Contact form</h2>
-                
-                <div>
-                    <label for="name" class="contact-form-label">Name</label>
-                    <input id="name" name="name" type="text" required>    
-                </div>
-            
-                <div>
-                    <label for="email" class="contact-form-label">Email address</label>
-                    <input id="email" name="email" type="email" required>    
-                </div>
-            
-                <div>
-                    <label for="question" class="contact-form-label">Question/Concern</label>
-                    <textarea name="question" id="description" rows="5" placeholder="Describe your concern..." required></textarea>    
-                </div>
-            
-                <button type="submit">Submit</button>
-            </form>
-            
+        <form action="record.html" method="get">
+            <h2>Contact Us</h2>
+
+            <div>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
             </div>
 
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" pattern="[a-zA-Z0-9]{8,}" required>
+            </div>
+
+            <div>
+                <label for="confirm_password">Confirm Password:</label>
+                <input type="password" id="confirm_password" name="confirm_password" required>
+            </div>
+
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address" required>
+            </div>
+
+            <div>
+                <label for="pageRating">Page Rating:</label>
+                <input type="range" id="pageRating" name="pageRating" min="1" max="10" step="1">
+                <span id="currentValue">5</span>
+            </div>
+
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
     </main>
     <footer>
         <p>&copy; <span id="currentYear"></span> Carol Maxwell, JHB, South Africa</p>

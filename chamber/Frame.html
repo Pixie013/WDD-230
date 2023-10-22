@@ -2,28 +2,55 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Johannesburg Chamber of Commerce</title>
-    <link rel="stylesheet" href="styles/base1.css">
-</head>
 
+    <link rel="icon" href="SA-favicon.ico">
+
+    <link rel="stylesheet" href="styles/base-small.css">
+    <link rel="stylesheet" href="styles/base-medium.css">
+    <link rel="stylesheet" href="styles/base-large.css">
+
+</head>
 <body>
+    
     <header>
-        <nav>
-            <ul>
-                <li><a href="index2.html">Home</a></li>
-                <li><a href="#purpose">Purpose</a></li>
-                <li><a href="#scenarios">FAQ</a></li>
-                <li><a href="#typography">Typography</a></li>
-                <li><a href="#color-schema">Color Schema</a></li>
-                <li><a href="https://www.canva.com/design/DAFvlAeZe-Y/0xE29nyyb39-QfIXsLdzXw/view?utm_content=DAFvlAeZe-Y&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">Wireframe</a></li>
-            </ul>
-        </nav>
-        <div class="header-content">
-            <h1>Johannesburg Chamber of Commerce</h1>
-            <p>Fostering Business Growth in the Heart of South Africa</p>
+
+        <div id="header-content">
+            <div id="logo-section">
+                <img src="images/SA-logo.png" alt="logo" id="header-logo" >
+                <section id="name-section">
+                    <h1>Johannesburg</h1>
+                    <h2>Chamber of Commerce</h2>
+                </section>
+            </div>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li class="nav-item"><a id="menu" href="#"></a></li>
+                    <li class="nav-item"><a href="./index.html">Home</a></li>
+                    <li class="nav-item"><a href="./discover.html">Discover</a></li>
+                    <li class="nav-item"><a href="./directory.html">Directory</a></li>
+                    <li class="nav-item"><a href="./join.html">Join</a></li>
+                    <li class="nav-item"><a href="./contact.html">Contact</a></li>
+                    <li class="nav-item"><a href="https://pixie013.github.io/WDD-230/">Profile</a></li>
+                </ul>
+            </nav>
+            <div id="social-div">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="images/facebook.png" alt="Facebook" class="social">
+                </a>
+                
+                <a href="https://www.linkedin.com/" target="_blank">
+                    <img src="images/linkedin.png" alt="LinkedIn" class="social">
+                </a>
+                
+            </div>
+            <div id="date-section">
+                <p>Generic date</p>
+            </div>
         </div>
-        <img src="/images/southafricanflag.png" alt="Flag" class="Flag">
+
     </header>
 
     <section class="site-purpose" id="purpose">
@@ -31,14 +58,6 @@
         <p>Your Gateway to Success! Our chamber is a dynamic hub where businesses come together to strengthen local interests, forge valuable connections, and advocate for our vibrant community. As we promote the attractions and opportunities of our city, we invite you to explore, engage, and thrive with us. Discover the synergy of Johannesburg and let us be your partner in business growth and success.</p>
     </section>
 
-    <section class="scenarios" id="scenarios">
-        <h2>FAQ</h2>  
-        <ul>
-            <li><a href="https://allevents.in/johannesburg/business"> What upcoming events support local businesses and offer networking opportunities?</a></li>
-            <li><a href="https://sacci.org.za/contact/"> Where can I find contact details for the chamber's board of directors? </a></li>
-            <li><a href="https://www.macrotrends.net/cities/22486/johannesburg/population#:~:text=The%20current%20metro%20area%20population,a%202.33%25%20increase%20from%202021.">What has been the recent population growth in the Johannesburg area?</a></li>
-        </ul>
-    </section>
 
     <section class="typography" id="typography">
         <h2>Typography</h2>
@@ -62,5 +81,30 @@
         <h2>Wireframe</h2>
         <a href="https://www.canva.com/design/DAFvlAeZe-Y/0xE29nyyb39-QfIXsLdzXw/view?utm_content=DAFvlAeZe-Y&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank">View Wireframe</a>
     </section>
+    <div id="footer-content">
+
+        <div id="footer-top-content">
+            <img src="images/SA-logo.png" alt="logo" id="footer-logo">
+            <h4>Johannesburg Chamber of Commerce</h4>
+            <p>27 Owl Street, Johannesburg, Gauteng</p>
+            <p>Johannesburg, Gauteng</p>
+            <p>info@johannesburg.org</p>
+            <p>+(27) 11 3542-5236</p>
+            <li class="nav-item"><a href="./contact.html">Map Location</a></li>
+        </div>
+
+        <hr>
+
+        <div id="footer-bottom-content">
+            <div id="info">
+                <p>© Johannesburg Chamber</p>
+                <p>Carol Maxwell</p>
+                <p>WDD 230 Project</p>
+            </div>
+            <p id="lastModified"></p>
+        </div>
+    </div>
+
+
 </body>
 </html>
